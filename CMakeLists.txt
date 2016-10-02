@@ -7,6 +7,7 @@ find_package(PythonLibs REQUIRED)
 include_directories(
     ${PYTHON_INCLUDE_DIR}
     ${GTK_DIR}/include
+    ${GTK_DIR}/include/cairo
 )
 link_directories(${GTK_DIR}/lib)
 
